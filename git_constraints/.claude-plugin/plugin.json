@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "git_constraints",
+  "displayName": "Git Constraints",
+  "version": "1.0.0",
+  "description": "Git工作流约束插件：安全扫描、代码审查、规范提交。提供完整的Git提交前检查和代码质量保障能力。",
+  "author": {
+    "name": "skills_repo"
+  },
+  "license": "MIT",
+  "keywords": ["git", "security", "code-review", "commit", "conventional-commits"],
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "agents": "./agents/",
+  "hooks": "./hooks/hooks.json"
+}
